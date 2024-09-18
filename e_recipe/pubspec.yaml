@@ -1,0 +1,28 @@
+name: e_recipe
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  app_bar_with_search_switch: ^1.8.5
+  bottom_bar: ^2.0.3
+  circle_nav_bar: ^2.1.0+1
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  image_card: ^0.0.4
+  ios_search_appbar: ^1.1.1
+  group_list_view: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
